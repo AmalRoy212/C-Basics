@@ -27,20 +27,20 @@ int main(void)
       }
     }
   }
-  else
-  {
-    for (i = 0; i < length; i++)
-    {
-      if (values[i] % 2 == 0)
-      {
-        for (j = i; j < length; j++)
-        {
-          values[j] = values[j + 1];
-          length--;
-          i--;
-        }
-      }
-    }
-  }
+  // else
+  // {
+  //   for (i = 0; i < length; i++)
+  //   {
+  //     if (values[i] % 2 == 0)
+  //     {
+  //       for (j = i; j < length; j++)
+  //       {
+  //         values[j] = values[j + 1];
+  //         length--;
+  //         i--;
+  //       }
+  //     }
+  //   }
+  // }
   return EXIT_SUCCESS;
 }
